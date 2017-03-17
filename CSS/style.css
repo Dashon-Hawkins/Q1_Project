@@ -1,0 +1,107 @@
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #f44336;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+    width: 100%;
+  }
+
+.video-container {
+   margin: 0px;
+   width: 100vw;
+   height: 70vh;
+   padding: 0px;
+
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  font: 1.5em white;
+  background-color: #f44336;
+}
+
+
+
+
+
+
+/*.parallax-container {
+  height: 200px;
+
+    }*/
+/*
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  z-index: 1;
+  overflow
+
+}
+
+.card_lft {
+
+}
+.card_mid {
+  padding: 50px;
+  border: 2px solid black;
+
+}
+
+.card_lft img {
+  width: 12vw;
+  height: 60vh;
+  border: 1px solid black;
+  z-index: 5;
+}
+
+.container-white {
+
+  width: 100vw;
+
+}*/
+
+.video-container {
+  width: 90vw;
+  height: 90vh;
+
+}
